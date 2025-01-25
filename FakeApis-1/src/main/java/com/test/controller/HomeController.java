@@ -13,4 +13,12 @@ public class HomeController {
 
 		return "home";
 	}
+
+	@GetMapping("/admin")
+	public String adminpage() {
+		System.out.println("inside controller");
+		System.out.println("inside admin");
+
+		return "admin";
+	}
 }
