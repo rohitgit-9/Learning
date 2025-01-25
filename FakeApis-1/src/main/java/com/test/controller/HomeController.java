@@ -10,8 +10,6 @@ public class HomeController {
 	public String homepage() {
 		return "home";
 	}
-<<<<<<< Updated upstream
-=======
 
 	@GetMapping("/admin")
 	public String adminpage() {
@@ -19,12 +17,11 @@ public class HomeController {
 		System.out.println("test");
 		return "admin";
 	}
-	
+
 	@GetMapping("/teacher")
 	public String teacherpage() {
 		System.out.println("inside teacher");
 		System.out.println("teacher");
 		return "teacher";
 	}
->>>>>>> Stashed changes
 }
