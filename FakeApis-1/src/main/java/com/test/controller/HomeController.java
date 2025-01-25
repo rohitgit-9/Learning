@@ -17,7 +17,6 @@ public class HomeController {
 	@GetMapping("/admin")
 	public String adminpage() {
 		System.out.println("inside controller");
-
 		return "admin";
 	}
 }
